@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "DEV-VM-04-ND"
+        },
+        "TimezoneId": {
+            "value": "GMT Standard Time"
+        },
+        "VirtualNetworkName": {
+            "value": "Dev-ISL-Vnet"
+        },
+        "SubnetName": {
+            "value": "Dev-ISL-Subnet"
+        },
+        "AcceptEula": {
+            "value": "Yes"
+        },
+        "AcceptInsiderEula": {
+            "value": "Yes"
+        },
+        "RemoteDesktopAccess": {
+            "value": "-"
+        },
+        "WinRMAccess": {
+            "value": "-"
+        },
+        "OperatingSystem": {
+            "value": "Windows Server 2022"
+        },
+        "vmSize": {
+            "value": "Standard_B4ms"
+        },
+        "ContainerName": {
+            "value": "bcserver"
+        },
+        "Isolation": {
+            "value": "Default"
+        },
+        "vmAdminUsername": {
+            "value": "ingenadmin"
+        },
+        "BCAdminUsername": {
+            "value": "admin"
+        },
+        "adminPassword": {
+            "value": "Ad!ngenica1"
+        },
+        "ArtifactUrl": {
+            "value": "bcartifacts/onprem//w1/latest"
+        },
+        "BCDockerImage": {
+            "value": ""
+        },
+        "TestToolkit": {
+            "value": "All"
+        },
+        "AssignPremiumPlan": {
+            "value": "Yes"
+        },
+        "CreateTestUsers": {
+            "value": "Yes"
+        },
+        "LicenseFileUri": {
+            "value": "https://storage37rzl2x2l4pwe.blob.core.windows.net/bcaldev/5851967.bclicense?sp=r&st=2025-04-16T14:43:51Z&se=2026-04-16T22:43:51Z&spr=https&sv=2024-11-04&sr=b&sig=bZs3SsNtDWqc2pPFU%2BrxVpZBssrXDNN4UUHz689nrSM%3D"
+        },
+        "EnableTaskScheduler": {
+            "value": "Yes"
+        },
+        "Office365UserName": {
+            "value": ""
+        },
+        "Office365Password": {
+            "value": ""
+        },
+        "CreateAadUsers": {
+            "value": "Yes"
+        },
+        "FinalSetupScriptUrl": {
+            "value": ""
+        },
+        "BingMapsKey": {
+            "value": ""
+        },
+        "RunWindowsUpdate": {
+            "value": "No"
+        },
+        "ContactEMailForLetsEncrypt": {
+            "value": ""
+        },
+        "AutoShutdown": {
+            "value": "Enabled"
+        },
+        "AutoShutdownTime": {
+            "value": "20:00"
+        },
+        "AddTraefik": {
+            "value": "No"
+        }
+    }
+}
