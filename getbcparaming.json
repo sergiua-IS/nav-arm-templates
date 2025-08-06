@@ -63,7 +63,7 @@
             "value": "Yes"
         },
         "LicenseFileUri": {
-            "value": "https://storage37rzl2x2l4pwe.blob.core.windows.net/bcaldev/5851967.bclicense?sp=r&st=2025-04-16T14:43:51Z&se=2026-04-16T22:43:51Z&spr=https&sv=2024-11-04&sr=b&sig=bZs3SsNtDWqc2pPFU%2BrxVpZBssrXDNN4UUHz689nrSM%3D"
+            "value": "https://storage37rzl2x2l4pwe.blob.core.windows.net/bcaldev/5851967.bclicense?sv=2023-01-03&spr=https&st=2025-08-06T15%3A25%3A47Z&se=2025-08-07T15%3A25%3A47Z&sr=b&sp=r&sig=%2B627NHhuyVucNfsRu%2FX%2FMb4ua1LEMBP85ryYhtezVWM%3D"
         },
         "EnableTaskScheduler": {
             "value": "Yes"
